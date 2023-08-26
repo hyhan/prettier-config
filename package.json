@@ -1,0 +1,29 @@
+{
+  "name": "@hyhan/prettier-config",
+  "version": "1.0.0",
+  "packageManager": "pnpm@8.6.12",
+  "description": "Prettier config for @hyhan",
+  "license": "MIT",
+  "homepage": "https://github.com/hyhan/prettier-config#readme",
+  "bugs": {
+    "url": "https://github.com/hyhan/prettier-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyhan/prettier-config.git"
+  },
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "release": "bumpp && pnpm publish"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "bumpp": "^9.2.0",
+    "prettier": "^3.0.2"
+  },
+  "prettier": "./index.js"
+}
